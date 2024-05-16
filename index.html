@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>ManiBliss - Mantequilla de Mani</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    
+    <link href="style.css" rel="stylesheet"/>
+
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="small-header">
+                <div class="inline-top-elements">
+                    <ul>
+                        <li>Whatsapp: +56 9 94696939 </li>
+                        <li>hablemos@manibliss.cl</li>
+                        <li id="promo"><h2>Despacho gratis a todo Chile por compras sobre $18.000 CLP</h2></li>
+                        <li>Intagram Icon</li>
+                        <li>Tienda</li>
+                        <li>Mi Cuenta</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="big-header"><h1>Bienvenidos a ManiBliss</h1></div>
+        </header>
+
+        <!-- menu -->
+        <section class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li>Productos</li>
+                <li>Quienes Somos</li>
+                <li>Como Comprar</li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </section>
+
+        <!-- content -->
+        <main>
+            <h1>Productos</h1>
+            <table>
+                <thead>
+                    <td><h1>CremosaBliss</h1></td>
+                    <td><h1>ChocoBliss</h1></td>
+                    <td><h1>CrunchyBliss</h1></td>
+                </thead>
+            <tbody>
+                <td><img src="img/cremosabliss.JPG" alt="cremosa" /></td>
+                <td><img src="img/chocobliss.JPG" /></td>
+                <td><img src="img/crunchybliss.JPG" /></td>
+            </tbody>
+            </table>    
+        </main>
+
+         <!-- footer -->
+
+         <div id="formulario">
+            <h1>Contactanos</h1>
+            <form action="post_contacto.html" method="post">
+                <fieldset>
+                    <legend>Te responderemos a la brevedad</legend>
+                    <label for="nombre">Nombre: <input type="text" id="nombre" required/></label>
+                    <label for="email">email: <input type="email" id="email" required/></label>
+                    <label for="telefono">Teléfono: <input type="number" id="telefono" /></label>
+                    <label for="mensaje">Mensaje: <input id="mensaje" required/></label>
+                </fieldset>
+                <input type="submit" value="Submit" />
+            </form>
+         </div>
+         <footer>
+            <p>Producto hecho en Malalcahuello</p>
+         </footer>
+    </body>
+</html>
