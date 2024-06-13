@@ -1,0 +1,171 @@
+a:link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.flex-container-menu-superior {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #4793AF;
+    height: 164px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top_logo{
+  padding-left: 20px;
+}
+
+.flex-container-menu-superior > div {
+  padding: 2px 2px;
+}
+
+.flex-container-menu-superior > div > p {
+  vertical-align: middle;
+}
+
+.big-header{
+  display: flex;
+  font-size: 8rem%;
+  color: purple;
+  background-color: rgb(184, 234, 92);
+  padding: 6px;
+}
+
+.menu {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+  min-height: 60px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #02C8d3;
+  text-transform: uppercase;
+}
+
+.menu > * {
+  flex-basis: 180px;
+}
+
+
+#promo {
+  font-size: medium;
+  background-color: red;
+  font-weight: 500;
+}
+
+body {
+    width: 100%;
+    height:100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #4793AF;
+    color:whitesmoke;
+  }
+
+legend{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+li {
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 14px;
+    color: green;
+}
+
+h1,p{
+  margin: 1em auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.formulario {
+  margin-top: 40px;
+  margin: 0 auto;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid white;
+}
+
+fieldset last-of-type {
+  border-bottom: none;
+}
+
+
+input, textarea, select {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+input[type="submit"]{
+  height: 85px;
+  border-color: antiquewhite;
+  border: 5px solid slateblue;
+  background-color: #3b3b4f;
+  border-color:white;
+  min-width: 300px;
+  margin: 1em auto;
+}
+
+input[type="mensaje"]{
+  height: 250px;
+ 
+}
+
+#formulario{
+  width: 60vw;
+  margin:0 auto;
+}
+
+.gallery-flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 12px;
+  margin: 12px auto;
+}
+
+.gallery-flexbox > div > img {
+  max-width: 400px;
+  border: 12px solid white;
+  border-radius: 20px;
+}
+
+table{
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.top-header01 {
+  background-color: #4793AF;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1em;
+}
+
+#spacer {
+  height: 90px;
+  display: inline-block;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .gallery-flexbox {
+    display: flex;
+    flex-direction: column;
+  }
+}
