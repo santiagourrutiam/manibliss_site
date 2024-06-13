@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantequilla de Mani - ManiBliss</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .gradient-background, .gradient-footer {
+            height: 98%;
+            background: linear-gradient(62deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+            animation: gradient 5s ease infinite; 
+            background-size: 400% 400%;
+
+            }
+                @-webkit-keyframes gradient{ 
+                    0% {
+                        background-position: 0 50%;
+                    }
+                    50% {
+                        background-position: 100% 50%;
+                    }
+                    100% {
+                        background-position: 0% 50%;
+                    }
+                }
+                @keyframes gradient{
+                    0% {
+                        background-position: 0 50%;
+                    }
+                    50% {
+                        background-position: 100% 50%;
+                    }
+                    100% {
+                        background-position: 0% 50%;
+                    }
+                }
+        .gradient-footer {
+            height: 100%;
+            padding-top: 25px;
+        }
+
+        #map {
+          height: 100%;
+          width: 100%;
+          margin-bottom: 2em;
+        }
+
+        .contacto {
+          /*background-image: url("./img/board-1239114_1280.jpg");*/
+          image-orientation: 180deg;
+          background-color: #c6e18f;
+          padding: 25px 0 12px 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Title-->
+    <section id="title" class="gradient-background">
+       <div class="container-fluid text-center"> 
+        <div class="row">
+              <div class="col-lg-12 col-md-6 mx-auto">
+                  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+                      <div class="container-fluid">
+                        <a class="navbar-brand" href="#">ManiBliss</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse flex-grow-0 mx-auto" id="navbarText">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#title">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#productos">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#encuentranos">Encuentranos</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#contacto">Contacto</a>
+                            </li>
+                          </ul>
+                        
+                          <div class="row justify-content-center">
+                            <div class="col text-center">
+                              <ul class="list-unstyled d-flex text-center">
+                                <li class="ms-3"><a class="link-body-emphasis" href="https://wa.me/56975738932" target="_blank">
+                                  <img src="./img/whatsapp.svg" height="24"></a></li>
+                                <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/manibliss.cl" target="_blank"><img src="./img/instagram.svg" height="24"></a></li>
+                                <li class="ms-3"><a class="link-body-emphasis" href="mailto:hablemos@manibliss.cl"><img src="./img/envelope-at-fill.svg" height="24"></a></li>
+                              </ul>
+                            </div>  
+                          </div>
+                        </div>
+                      </div>
+                  </nav> 
+              </div>
+          </div>
+        </div>
+    
+    
+
+        <section>
+          <div class="container col-xxl-8">
+              <div class="row flex-lg-row-reverse align-items-center my-4">
+                  <div class="col-12 col-lg-6 col-sm-12 mb-lg-0">
+                      <img src="./img/variedades.JPG" style="border:solid 8px white; border-radius: 5px;" class="border-5 border-info d-block mx-lg-auto img-fluid" alt="Nuestras variedades" height="200" loading="lazy">
+                  </div>
+                  <div class="col-12 col-lg-6 col-sm-12 text-center text-lg-start">
+                      <img src="./img/blisso.png" class="mx-auto d-block my-4" height="130" />
+                      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Acá encuentras la mantequilla de maní casera más Sabrosa de Chile: ManiBliss</h1>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </section>
+    
+      
+      <!-- Presentación -->
+      <section id="productos">
+          <div class="container px-4 py-4 mt-4">
+            
+            <div class="row">
+              <div class="col">
+                <h2 class="pb-2 border-bottom display-5 fw-bold text-lg-start lh-1 mb-3">Nuestras Variedades</h2>
+              </div>
+            </div>  
+            
+            
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                  <!-- Natural Cremosa -->
+                  <div class="col feature text-center">
+                      <div class="feature-icon d-inline-flex text-bg-info bg-gradient fs-2 mb-3">
+                          <img src="./img/cremosabliss.JPG" class="mx-auto d-block py-5" width="80%" />
+                      </div>
+                      <h3 class="fs-2 text-body-emphasis text-center fw-bold text-body-emphasis lh-1 mb-3">Natural Cremosa</h3>
+                      <p class="text-center">Los mejores granos de Maní tostado natural en una fórmula cremosa que puede acompañar tus snacks diarios.</p>
+                  </div>
+      
+                  <!-- Natural Crujiente -->
+                  <div class="col feature text-center">
+                      <div class="feature-icon d-inline-flex text-bg-info bg-gradient fs-2 mb-3">
+                          <img src="./img/crunchybliss.JPG" class="mx-auto d-block py-5" width="80%" />
+                      </div>
+                      <h3 class="fs-2 text-body-emphasis text-center fw-bold text-body-emphasis lh-1 mb-3">Natural Crujiente</h3>
+                      <p class="text-center">Con una consistencia más densa y un grano de Mani que no alcanza su máxima pulverización.</p>
+                  </div>
+      
+                  <!-- ChocoBliss -->
+                  <div class="col feature text-center">
+                      <div class="feature-icon d-inline-flex text-bg-info bg-gradient fs-2 mb-3">
+                          <img src="./img/chocobliss.JPG" class="mx-auto d-block py-5" width="80%" />
+                      </div>
+                      <h3 class="fs-2 text-body-emphasis text-center fw-bold text-body-emphasis lh-1 mb-3">ChocoBliss</h3>
+                      <p class="text-center">La preferida de los niños y lo mejor de ambos mundos, la cremosa de siempre con chocolate amargo, una mezcla infalible en tu snack.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      
+
+    <section id="encuentranos">
+      <div class="container px-4 py-5 text-center">
+        
+        <div class="row">
+          <div class="col-12">
+            <h2 class="pb-2 border-bottom text-lg-start fw-bold text-body-emphasis lh-1 mb-3">Encuéntranos en Malalcahuello</h2>
+          </div>
+        </div>
+        
+        <div class="row">
+            
+          <div class="col-md-12" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d49975.2099136942!2d-71.5663764!3d-38.4772428!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1717599282142!5m2!1ses-419!2scl" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+            <div class="col-md-12">
+              <h2 class="color-primary lh-1 mb-3 mt-3">Puntos de Venta</h2>
+              <ul class="list-unstyled">
+                <li class="my-4"><a class="link-body-emphasis" href="https://www.instagram.com/layuntagranel" target="_blank"><img src="./img/instagram.svg" height="32"></a> La Yunta // Mercado a Granel - Decher #60, Puerto Varas</li>
+                <li class="my-4"><a class="link-body-emphasis" href="https://www.instagram.com/manza.boulder" target="_blank"><img src="./img/instagram.svg" height="32"></a> Manzaboulder - Juan Kapler #101, Manzanar</li>
+                <li class="my-4"><a class="link-body-emphasis" href="https://www.instagram.com/laestacionminimarket2022" target="_blank"><img src="./img/instagram.svg" height="32"></a> Minimarket la Estación - Arturo Pratt #371, Malalcahuello</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="container col-sm-12 col-xxl-8 col-lg-6">
+          <div class="row col-lg-12 mb-4">    
+            <h2 class="pb-2 border-bottom my-12 display-5 fw-bold text-body-emphasis lh-1 mb-3">Contáctanos</h2>
+          </div>  
+          <div class="row col-lg-12 mb-4">
+                  <form id="formulario" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+                    <!-- Web3forms access key -->
+                    <input type="hidden" name="access_key" value="d08dc542-2bd9-4102-8966-0a345d52668d">
+
+                    <label for="nombre">Nombre Completo: </label>
+                    <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre Completo">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" required class="form-control" id="email" placeholder="Email">
+                    
+                    <label for="mensaje">Mensaje: </label>
+                    <textarea class="form-control" name="mensaje" id="mensaje" rows="12" placeholder="Mensaje"></textarea>
+                    <button type="submit" class="btn btn-primary mx-auto" value="submit">Enviar</button>
+                </form>
+          </div>
+        </div>
+    </section>
+    
+    <!-- Footer-->
+    <section id="footer" class="col-12 gradient-footer my-8">
+            <div class="container mt-4">
+                <footer class="mt-20">
+                  <div class="row">   
+                    <div class="col-6 offset-md-1 mb-3 mx-auto">
+                      <form>
+                        <h5>Suscríbete a nuestras recetas</h5>
+                        <p>Novedades sobre nuestro emprendimiento y recetas el primer Domingo de cada mes</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                          <label for="newsletter1" class="visually-hidden">Email </label>
+                          <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                          <button class="btn btn-primary" type="button">Suscribirse</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+              
+                  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 mt-4 border-top">
+                    <p class="mx-auto">© 2024 ManiBliss, Inc. Todos los derechos reservados.</p>
+                    
+                    <ul class="list-unstyled d-flex">
+                      <li class="ms-3"><a class="link-body-emphasis" href="https://wa.me/56975738932" target="_blank"><img src="./img/whatsapp.svg" height="32"></a></li>
+                      <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/manibliss.cl" target="_blank"><img src="./img/instagram.svg" height="32"></a></li>
+                      <li class="ms-3"><a class="link-body-emphasis" href="mailto:hablemos@manibliss.cl"><img src="./img/envelope-at-fill.svg" height="32"></a></li>
+                    </ul>
+                  </div>
+                </footer>
+            </div>
+      
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
